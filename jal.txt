@@ -1,0 +1,4 @@
+public static void main(String[] args) throws ClassNotFoundException, IOException {
+        prob_007.class.getClassLoader().loadClass("java.lang.reflect.Array");
+        new DataInputStream(new FileInputStream("./input.txt")).readInt();
+    }
